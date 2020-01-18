@@ -1,6 +1,9 @@
 {
   "name": "braincloud",
   "version": "1.0.0",
+  "scripts": {
+    "start": "node app.js"
+},
   "description": "A data management network",
   "main": "app.js",
   "repository": "https://github.com/zehqresh/braincloud.git",
