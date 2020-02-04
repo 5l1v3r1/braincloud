@@ -1,0 +1,33 @@
+<div class="container">
+<div class="jumbotron" style="margin-top:80px">
+  <form action='/register' method="POST">
+    <div class="form-group">
+      <label for="exampleInputEmail1" >Email address</label>
+      <input type="email" name="email" placeHolder='Email adress' class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">Password</label>
+      <input name="password" placeHolder='Choose a password' type="password" class="form-control" id="exampleInputPassword1">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword2">Re-inter Password</label>
+      <input name="password" placeHolder='Confirm your passwrd' type="password" class="form-control" id="exampleInputPassword1">
+    </div>
+
+      <div class="row">
+        <div class="col">
+          <input name="fName" type="text" class="form-control" placeholder="First name">
+        </div>
+        <div class="col">
+          <input type="text" name="lName" class="form-control" placeholder="Last name">
+        </div>
+        <div class="col">
+          <input type="text" name="uName" class="form-control" placeholder="Choose a userame">
+        </div>
+      </div>
+        <button type="submit" class="btn btn-primary" style="margin-top:10px;">Join Family</button>
+
+  </form>
+</div>
+</div>
